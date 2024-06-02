@@ -1,0 +1,21 @@
+Steps to Perform the Lab
+1. Simulating Bluetooth Scanning
+You can simulate Bluetooth scanning using software tools available on your computer:
+
+Install BlueHydra:
+
+BlueHydra can be installed on a Linux machine or a virtual machine (VM). Follow the instructions on the BlueHydra GitHub page.
+
+bash
+Copy code
+sudo apt-get update
+sudo apt-get install bluez
+git clone https://github.com/pwnieexpress/blue_hydra.git
+cd blue_hydra
+sudo gem install bundler
+bundle install
+sudo ./blue_hydra
+Simulate Bluetooth Devices:
+
+Use software like Bluetooth simulator apps or Bluetooth emulation tools to simulate Bluetooth devices on your VM.
+2. Simulating Bluejacking and Bluesnarfing
